@@ -36,7 +36,7 @@ class GreenAlertApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/' : (context) => UserDashboard(),
+        '/': (context) => UserDashboard(),
         '/admin': (context) => AdminDashboard(),
       },
     );
